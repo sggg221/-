@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = { };
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32926587F248B182C30B835B /* WalkTraceApp.swift in Sources */ = {
+			isa = PBXBuildFile; fileRef = 8CF6B22231AF120110333DD2;
+		};
+		3667057FC4C3C2DC438BE714 /* WorkoutSession.swift in Sources */ = {
+			isa = PBXBuildFile; fileRef = 7B6471CF178342C0984B527F;
+		};
+		7B4984413CD239CF126EE4A4 /* WorkoutStore.swift in Sources */ = {
+			isa = PBXBuildFile; fileRef = 5BBA1B42DD450733F957B5C9;
+		};
+		28FFF5198CEC909B11C54433 /* WorkoutTracker.swift in Sources */ = {
+			isa = PBXBuildFile; fileRef = 46CD33169CF65FC50B1D2BD5;
+		};
+		24EED1E26F1791795AAF62BA /* TodayMetricsService.swift in Sources */ = {
+			isa = PBXBuildFile; fileRef = 9B8A557680007645D6385E3D;
+		};
+		6929A23167E3D2D62CE51DDF /* DesignSystem.swift in Sources */ = {
+			isa = PBXBuildFile; fileRef = B6CC10D382E1E9017C661DD4;
+		};
+		0925C641E58C6D10AB25843F /* RouteMapView.swift in Sources */ = {
+			isa = PBXBuildFile; fileRef = DF1BD63F31BD4E70018E2C15;
+		};
+		8ADC69346D373A02F7A31189 /* MainTabView.swift in Sources */ = {
+			isa = PBXBuildFile; fileRef = B15C7C1359DF1A2D5C0FEEB9;
+		};
+		3B6D8F283DD90A79A16D5DAC /* TodayView.swift in Sources */ = {
+			isa = PBXBuildFile; fileRef = 7043683B193C68F770D81C98;
+		};
+		A0EB68D461B87BB617F6261C /* HistoryView.swift in Sources */ = {
+			isa = PBXBuildFile; fileRef = 82F82D4B5274235B2D38A1E9;
+		};
+		6431A5CBBE13F9A0FAF2E248 /* WorkoutDetailView.swift in Sources */ = {
+			isa = PBXBuildFile; fileRef = DEEBDA25D2D366663336CB70;
+		};
+		C53297D59F1FBEC19A4F0C03 /* SettingsView.swift in Sources */ = {
+			isa = PBXBuildFile; fileRef = C467172EC16B2F7F1683D89A;
+		};
+		604CABC0BD72E2595CEEF29D /* Assets.xcassets in Resources */ = {
+			isa = PBXBuildFile; fileRef = 1622F4B9139DF0876677B828;
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CF6B22231AF120110333DD2 /* WalkTraceApp.swift */ = {
+			isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WalkTraceApp.swift"; sourceTree = "<group>";
+		};
+		7B6471CF178342C0984B527F /* WorkoutSession.swift */ = {
+			isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkoutSession.swift"; sourceTree = "<group>";
+		};
+		5BBA1B42DD450733F957B5C9 /* WorkoutStore.swift */ = {
+			isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkoutStore.swift"; sourceTree = "<group>";
+		};
+		46CD33169CF65FC50B1D2BD5 /* WorkoutTracker.swift */ = {
+			isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkoutTracker.swift"; sourceTree = "<group>";
+		};
+		9B8A557680007645D6385E3D /* TodayMetricsService.swift */ = {
+			isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodayMetricsService.swift"; sourceTree = "<group>";
+		};
+		B6CC10D382E1E9017C661DD4 /* DesignSystem.swift */ = {
+			isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DesignSystem.swift"; sourceTree = "<group>";
+		};
+		DF1BD63F31BD4E70018E2C15 /* RouteMapView.swift */ = {
+			isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RouteMapView.swift"; sourceTree = "<group>";
+		};
+		B15C7C1359DF1A2D5C0FEEB9 /* MainTabView.swift */ = {
+			isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainTabView.swift"; sourceTree = "<group>";
+		};
+		7043683B193C68F770D81C98 /* TodayView.swift */ = {
+			isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodayView.swift"; sourceTree = "<group>";
+		};
+		82F82D4B5274235B2D38A1E9 /* HistoryView.swift */ = {
+			isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryView.swift"; sourceTree = "<group>";
+		};
+		DEEBDA25D2D366663336CB70 /* WorkoutDetailView.swift */ = {
+			isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkoutDetailView.swift"; sourceTree = "<group>";
+		};
+		C467172EC16B2F7F1683D89A /* SettingsView.swift */ = {
+			isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>";
+		};
+		1622F4B9139DF0876677B828 /* Assets.xcassets */ = {
+			isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>";
+		};
+		FADA588DF9376078218D6D49 /* Info.plist */ = {
+			isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>";
+		};
+		95116E43524B7AF0EA379E65 /* WalkTrace.entitlements */ = {
+			isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WalkTrace.entitlements"; sourceTree = "<group>";
+		};
+		46D38592444D8E8EFCD45296 /* WalkTrace.app */ = {
+			isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkTrace.app; sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F584B8E38AE860E1F36F17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D66C1FC90432A6E81372883 /* Root */ = {
+			isa = PBXGroup; children = ( 38836580811CE37B4F5DE974 /* WalkTrace */, 0E368A1237FD2FC81702CC1A /* Products */, ); sourceTree = "<group>";
+		};
+		38836580811CE37B4F5DE974 /* WalkTrace */ = {
+			isa = PBXGroup; children = ( 8CF6B22231AF120110333DD2 /* WalkTraceApp.swift */, F8A69B626B6CF9DC22F9980C /* Models */, 1587D168026609FAAA2DE308 /* Services */, 871875FABB9B022B96A043D0 /* Views */, 9C3D094C7676C1921C9440F1 /* Resources */, FADA588DF9376078218D6D49 /* Info.plist */, 95116E43524B7AF0EA379E65 /* WalkTrace.entitlements */, ); path = "WalkTrace"; sourceTree = "<group>";
+		};
+		F8A69B626B6CF9DC22F9980C /* Models */ = {
+			isa = PBXGroup; children = ( 7B6471CF178342C0984B527F /* WorkoutSession.swift */, ); path = "Models"; sourceTree = "<group>";
+		};
+		1587D168026609FAAA2DE308 /* Services */ = {
+			isa = PBXGroup; children = ( 5BBA1B42DD450733F957B5C9 /* WorkoutStore.swift */, 46CD33169CF65FC50B1D2BD5 /* WorkoutTracker.swift */, 9B8A557680007645D6385E3D /* TodayMetricsService.swift */, ); path = "Services"; sourceTree = "<group>";
+		};
+		871875FABB9B022B96A043D0 /* Views */ = {
+			isa = PBXGroup; children = ( B6CC10D382E1E9017C661DD4 /* DesignSystem.swift */, DF1BD63F31BD4E70018E2C15 /* RouteMapView.swift */, B15C7C1359DF1A2D5C0FEEB9 /* MainTabView.swift */, 7043683B193C68F770D81C98 /* TodayView.swift */, 82F82D4B5274235B2D38A1E9 /* HistoryView.swift */, DEEBDA25D2D366663336CB70 /* WorkoutDetailView.swift */, C467172EC16B2F7F1683D89A /* SettingsView.swift */, ); path = "Views"; sourceTree = "<group>";
+		};
+		9C3D094C7676C1921C9440F1 /* Resources */ = {
+			isa = PBXGroup; children = ( 1622F4B9139DF0876677B828 /* Assets.xcassets */, ); path = "Resources"; sourceTree = "<group>";
+		};
+		0E368A1237FD2FC81702CC1A /* Products */ = {
+			isa = PBXGroup; children = ( 46D38592444D8E8EFCD45296 /* WalkTrace.app */, ); sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD83FAF13303293745FC4A1B /* WalkTrace */ = {
+			isa = PBXNativeTarget; buildConfigurationList = EE8BEA601D863E5F83013AA6 /* Build configuration list for PBXNativeTarget "WalkTrace" */; buildPhases = ( 9CA40D4E44FCE3330A606A73 /* Sources */, 4F584B8E38AE860E1F36F17C /* Frameworks */, 99F83B3DE34B6B005C7628DE /* Resources */, ); buildRules = ( ); dependencies = ( ); name = WalkTrace; productName = WalkTrace; productReference = 46D38592444D8E8EFCD45296 /* WalkTrace.app */; productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1F4A73A96BB3A1FCF6F4A74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = { BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 1600; TargetAttributes = { AD83FAF13303293745FC4A1B = { CreatedOnToolsVersion = 16.0; ProvisioningStyle = Automatic; }; }; };
+			buildConfigurationList = D4B930F31E476ADED38CF19A /* Build configuration list for PBXProject "WalkTrace" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = zh_CN;
+			hasScannedForEncodings = 0;
+			knownRegions = ( zh_CN, en, Base, );
+			mainGroup = 4D66C1FC90432A6E81372883 /* Root */;
+			productRefGroup = 0E368A1237FD2FC81702CC1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = ( AD83FAF13303293745FC4A1B /* WalkTrace */, );
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99F83B3DE34B6B005C7628DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = ( 604CABC0BD72E2595CEEF29D /* Assets.xcassets in Resources */, ); runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CA40D4E44FCE3330A606A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = ( 32926587F248B182C30B835B /* WalkTraceApp.swift in Sources */, 3667057FC4C3C2DC438BE714 /* WorkoutSession.swift in Sources */, 7B4984413CD239CF126EE4A4 /* WorkoutStore.swift in Sources */, 28FFF5198CEC909B11C54433 /* WorkoutTracker.swift in Sources */, 24EED1E26F1791795AAF62BA /* TodayMetricsService.swift in Sources */, 6929A23167E3D2D62CE51DDF /* DesignSystem.swift in Sources */, 0925C641E58C6D10AB25843F /* RouteMapView.swift in Sources */, 8ADC69346D373A02F7A31189 /* MainTabView.swift in Sources */, 3B6D8F283DD90A79A16D5DAC /* TodayView.swift in Sources */, A0EB68D461B87BB617F6261C /* HistoryView.swift in Sources */, 6431A5CBBE13F9A0FAF2E248 /* WorkoutDetailView.swift in Sources */, C53297D59F1FBEC19A4F0C03 /* SettingsView.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8EC34B5C429A10FF12A34FD /* Debug */ = {
+			isa = XCBuildConfiguration; buildSettings = {
+							ALWAYS_SEARCH_USER_PATHS = NO;
+							CLANG_ENABLE_MODULES = YES;
+							CLANG_ENABLE_OBJC_ARC = YES;
+							IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+							SDKROOT = "iphoneos";
+							SWIFT_VERSION = "5.0";
+							TARGETED_DEVICE_FAMILY = "1";
+							DEBUG_INFORMATION_FORMAT = "dwarf";
+							GCC_OPTIMIZATION_LEVEL = "0";
+							SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG";
+							SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+						}; name = Debug;
+		};
+		71B98DC236D3097D9A74098C /* Debug */ = {
+			isa = XCBuildConfiguration; buildSettings = {
+							ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+							CODE_SIGN_ENTITLEMENTS = "WalkTrace/WalkTrace.entitlements";
+							CODE_SIGN_STYLE = "Automatic";
+							CURRENT_PROJECT_VERSION = "1";
+							ENABLE_PREVIEWS = YES;
+							GENERATE_INFOPLIST_FILE = NO;
+							INFOPLIST_FILE = "WalkTrace/Info.plist";
+							IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+							LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+							MARKETING_VERSION = "1.0";
+							PRODUCT_BUNDLE_IDENTIFIER = "com.example.walktrace";
+							PRODUCT_NAME = "$(TARGET_NAME)";
+							SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+							SUPPORTS_MACCATALYST = NO;
+							SWIFT_VERSION = "5.0";
+							TARGETED_DEVICE_FAMILY = "1";
+						}; name = Debug;
+		};
+		A38924A911164B4CFFD4162B /* Release */ = {
+			isa = XCBuildConfiguration; buildSettings = {
+							ALWAYS_SEARCH_USER_PATHS = NO;
+							CLANG_ENABLE_MODULES = YES;
+							CLANG_ENABLE_OBJC_ARC = YES;
+							IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+							SDKROOT = "iphoneos";
+							SWIFT_VERSION = "5.0";
+							TARGETED_DEVICE_FAMILY = "1";
+							DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+							SWIFT_COMPILATION_MODE = "wholemodule";
+							SWIFT_OPTIMIZATION_LEVEL = "-O";
+						}; name = Release;
+		};
+		1C5A14881728920811E597E6 /* Release */ = {
+			isa = XCBuildConfiguration; buildSettings = {
+							ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+							CODE_SIGN_ENTITLEMENTS = "WalkTrace/WalkTrace.entitlements";
+							CODE_SIGN_STYLE = "Automatic";
+							CURRENT_PROJECT_VERSION = "1";
+							ENABLE_PREVIEWS = YES;
+							GENERATE_INFOPLIST_FILE = NO;
+							INFOPLIST_FILE = "WalkTrace/Info.plist";
+							IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+							LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+							MARKETING_VERSION = "1.0";
+							PRODUCT_BUNDLE_IDENTIFIER = "com.example.walktrace";
+							PRODUCT_NAME = "$(TARGET_NAME)";
+							SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+							SUPPORTS_MACCATALYST = NO;
+							SWIFT_VERSION = "5.0";
+							TARGETED_DEVICE_FAMILY = "1";
+						}; name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4B930F31E476ADED38CF19A /* Build configuration list for PBXProject "WalkTrace" */ = {
+			isa = XCConfigurationList; buildConfigurations = ( A8EC34B5C429A10FF12A34FD /* Debug */, A38924A911164B4CFFD4162B /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;
+		};
+		EE8BEA601D863E5F83013AA6 /* Build configuration list for PBXNativeTarget "WalkTrace" */ = {
+			isa = XCConfigurationList; buildConfigurations = ( 71B98DC236D3097D9A74098C /* Debug */, 1C5A14881728920811E597E6 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1F4A73A96BB3A1FCF6F4A74 /* Project object */;
+}
